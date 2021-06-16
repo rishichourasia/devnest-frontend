@@ -1,7 +1,7 @@
 var student = { name: "David Rayy", sclass: "VI", rollno: 12 };
 
 for (key in student) console.log(key);
-
+/////completed student portfolio section
 // *******************
 var student = { name: "David Rayy", sclass: "VI", rollno: 12 };
 
