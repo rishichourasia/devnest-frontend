@@ -16,9 +16,9 @@ seats.forEach((seat) => {
 	});
 });
 
-const unBookSeats = () => {
-	bookedSeats += 1;
-	reaminingSeats -= 1;
+const unBookSeats = (s) => {
+	bookedSeats += 1 * s;
+	reaminingSeats -= 1 * s;
 
 	bookedSeatsElement.innerText = bookedSeats;
 	remainingSeatsElement.innerText = reaminingSeats;
