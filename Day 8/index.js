@@ -15,6 +15,7 @@ seats.forEach((seat) => {
 		seat.classList.contains(`booked`) ? unBookSeats(1) : unBookSeats(-1);
 	});
 });
+//////replaced with another function
 
 const unBookSeats = (s) => {
 	bookedSeats += 1 * s;
