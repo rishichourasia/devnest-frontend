@@ -3,6 +3,7 @@ const cards = document.querySelectorAll(".memory-card");
 let hasFlippedCards = false;
 let firstCard, secondCard;
 let board = false;
+
 function flipCard() {
 	if (board) return;
 	if (this === firstCard) return;
@@ -13,7 +14,7 @@ function flipCard() {
 		firstCard = this;
 		return;
 	}
-
+	hasFlippedCards = false;
 	secondCard = this;
 	ismatch();
 }
@@ -23,8 +24,8 @@ function ismatch() {
 	check ? disableCard() : unflipCards();
 }
 function disableCard() {
-	firstCard.removeEventListner("click", flipCard);
-	secondCard.removeEventListner("click", flipCard);
+	firstCard.removeEventListener("click", flipCard);
+	secondCard.removeEventListener("click", flipCard);
 	resetBoard();
 }
 
