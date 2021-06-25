@@ -15,7 +15,7 @@ var size = 0;
 for (key in student) size++;
 
 console.log("size", size);
-// *******************
+// *******************/////////////
 
 var library = [
 	{ author: "Bill Gates", title: "The Road Ahead", readingStatus: true },
