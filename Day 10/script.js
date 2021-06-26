@@ -18,7 +18,7 @@ function flipCard() {
 	secondCard = this;
 	ismatch();
 }
-
+//flipped cards here
 function ismatch() {
 	let check = firstCard.dataset.value === secondCard.dataset.value;
 	check ? disableCard() : unflipCards();
