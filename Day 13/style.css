@@ -1,0 +1,17 @@
+#output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+}
+#inputTxt{
+    height: 10vh;
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+}
+#btn-translate{
+    padding: 1vh;
+}
