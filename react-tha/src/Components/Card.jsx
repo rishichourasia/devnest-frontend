@@ -10,5 +10,5 @@ function Card() {
 		</div>
 	);
 }
-
+/////////react card
 export default Card;
