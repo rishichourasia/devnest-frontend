@@ -12,3 +12,4 @@ function Card() {
 }
 /////////react card
 export default Card;
+/////////development
