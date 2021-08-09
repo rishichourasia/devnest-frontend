@@ -12,5 +12,6 @@ THA 17 CalorieCard | [Repo link](https://codesandbox.io/s/day-17-calorie-card-80
 THA 18 Checkbox (Counditional) | [Repo link](https://codesandbox.io/s/tha-18-checker-box-with-counditional-8wpwz) | [live link](https://8wpwz.csb.app/)
 THA 18 CalorieCard (Counditional) | [Repo link](https://codesandbox.io/s/tha-18-calorie-checker-with-coundition-m0uw1) | [live link](https://m0uw1.csb.app/)
 THA 19 Buttons With there Own State | [Repo link](https://codesandbox.io/s/tha-19-buttons-with-their-own-state-0keyo) | [live link](https://0keyo.csb.app/)
-
 THA 20 Delete Button | [Repo link](https://codesandbox.io/s/tha-20-delete-button-if2pf?file=/src/Components/CalorieCard.js) | [live link](https://if2pf.csb.app/)
+THA 21 Edit Delete Button | [Repo link](https://codesandbox.io/s/tha-20-delete-button-if2pf?file=/src/Components/CalorieCard.js) | [live link](https://if2pf.csb.app/)
+THA 22 Meme Generator | [Repo link](https://codesandbox.io/s/tha-20-delete-button-if2pf?file=/src/Components/CalorieCard.js) | [live link](https://if2pf.csb.app/)
