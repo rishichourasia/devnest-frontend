@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+.App {
+  text-align: center;
+  margin-top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 400px;
+}
+.inputBox {
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding: 15px 5px 15px 5px;
+
+}
+button {
+ 
+}
+.notFound{
+  padding: 15px 10px 15px 10px;
+}
+.name{
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.degree{
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  padding-left: 15px;
+}
+.condition{
+  padding-bottom: 15px;
+  font-size: large;
+}
+
+.row{
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.title {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.data{
+  font-size: 18px;
+  font-weight: 400;
+}
+img{
+  width: 130px;
+}
+.toggle-theme{
+  position: fixed;
+  top: 30px;
+  right: 20px;
+}
+.dark {
+  background-color: rgb(22, 20, 20);
+  color: white;
+}
+.dark-father{
+background-color: black;
+color: white;
+min-height: 100vh;
+}
