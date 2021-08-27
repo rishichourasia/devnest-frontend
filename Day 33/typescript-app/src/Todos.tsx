@@ -12,7 +12,7 @@ const Todos = () => {
     const [data, setData] = useState<string>("")
    
     return (
-        <div className={theme ? "todos dark" : "todos"}>
+        <div className="todos dark">
             <input type="text" value={data} onChange={e => setData(e.target.value)}/>
             <button onClick={() => {
               setTodos([...todos, {title: data, done: false}])
