@@ -1,6 +1,6 @@
 export default function GetInstructions({ inst }) {
   return (
-    <div className="instruction">
+    <div className=="instruction">
       <h2>instruction</h2>
       <ul>
         {Object.keys(inst).map((item) => {

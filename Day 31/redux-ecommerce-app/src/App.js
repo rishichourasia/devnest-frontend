@@ -6,7 +6,7 @@ import { ProductDetails } from "./components/Page Component/ProductDetails";
 
 function App() {
 	return (
-		<div className="App">
+		<div className=="App">
 			<Router>
 				<Navbar />
 				<Switch>

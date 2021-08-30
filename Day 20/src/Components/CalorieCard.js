@@ -1,6 +1,6 @@
 function Card({ title, calories, index, setCard, cards }) {
   return (
-    <div className="card">
+    <div className=="card">
       <h2>
         {title || "My Card"} -
         {calories > 150 ? " Danger" : calories < 140 ? " Safe" : " Normal"}
@@ -21,7 +21,7 @@ export default function CalorieCard({ menu, setCard }) {
   return (
     <div>
       <h2>Calorie Read Only</h2>
-      <div className="CardContainer">
+      <div className=="CardContainer">
         {menu.map((item, index) => {
           return (
             <Card

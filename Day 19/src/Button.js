@@ -8,7 +8,7 @@ function Button() {
   }
 
   return (
-    <button className="button" onClick={updateCounter}>
+    <button className=="button" onClick={updateCounter}>
       {state}
     </button>
   );

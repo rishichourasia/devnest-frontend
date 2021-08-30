@@ -14,7 +14,7 @@ function Home() {
         logger.loading ? (
           "Loading..."
         ) : (
-            <button onClick={logger.toggleLogin} className="btn">
+            <button onClick={logger.toggleLogin} className=="btn">
               {logger.loggedIn ? "Logout" : "Login"}
             </button>
           )

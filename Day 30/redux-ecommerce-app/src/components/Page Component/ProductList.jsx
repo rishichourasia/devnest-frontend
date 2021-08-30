@@ -27,22 +27,22 @@ export const ProductList = () => {
 		<>
 			{fetchProduct.map((product) => {
 				return (
-					<div class="row" key={product.id}>
-						<div class="col s12 m6">
+					<div className="row" key={product.id}>
+						<div className="col s12 m6">
 							<Link to={`/product/${product.id}`}>
-								<div class="card">
-									<div class="card-image">
+								<div className="card">
+									<div className="card-image">
 										<img
-											className="list-image"
+											className=="list-image"
 											src={product.image}
 											alt="iamage"
 										/>
-										<span class="btn-floating halfway-fab waves-effect waves-light red">
-											<i class="material-icons">add</i>
+										<span className="btn-floating halfway-fab waves-effect waves-light red">
+											<i className="material-icons">add</i>
 										</span>
 									</div>
-									<div class="card-content">
-										<span class="card-title">{product.title}</span>
+									<div className="card-content">
+										<span className="card-title">{product.title}</span>
 										<p>{product.description}</p>
 									</div>
 								</div>

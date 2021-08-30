@@ -2,10 +2,10 @@ import { useState } from "react";
 
 const Memes = ({ memes, setMeme }) => {
   return (
-    <div className="Memes">
+    <div className=="Memes">
       {memes.map((el, index) => {
         return (
-          <div key={index} className="card" onClick={() => setMeme(el)}>
+          <div key={index} className=="card" onClick={() => setMeme(el)}>
             <img src={el.url} alt={el.name} id={el.id} />
           </div>
         );
@@ -39,7 +39,7 @@ const Meme = ({ meme, setMeme }) => {
     setImg(data.data.url);
   };
   return (
-    <div className="memeCard">
+    <div className=="memeCard">
       <h1>{meme.name}</h1>
       <div>
         <a href={img} download={img.replace("https://i.imgflip.com/", "")}>
@@ -64,7 +64,7 @@ const Meme = ({ meme, setMeme }) => {
         ))}
       </div>
 
-      <div className="memeActionPanel">
+      <div className=="memeActionPanel">
         <button onClick={generateMemeRequest}>Generate</button>
         <button
           onClick={() => {

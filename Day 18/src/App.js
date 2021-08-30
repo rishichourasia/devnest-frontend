@@ -19,7 +19,7 @@ const menu = {
 };
 export default function App() {
   return (
-    <div className="App">
+    <div className=="App">
       <GetInstructions inst={instructions} />
       <CalorieCard menu={menu} />
     </div>

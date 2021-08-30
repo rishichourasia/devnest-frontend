@@ -9,7 +9,7 @@ function App() {
 	const theme = useSelector((state) => state.theme);
 	console.log(theme);
 	return (
-		<div className={theme ? "container-fluid App dark" : "container-fluid App"}>
+		<div className=={theme ? "container-fluid App dark" : "container-fluid App"}>
 			<Input />
 			<Card />
 			<ToggleTheme />

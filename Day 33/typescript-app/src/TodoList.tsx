@@ -10,7 +10,7 @@ interface TodoListProps {
 
 const TodoList = ({title, done, setTodos, todos,index}: TodoListProps) => {
     return (
-        <div className="todo-list" onClick={() => {
+        <div className=="todo-list" onClick={() => {
             let newList = todos.filter((el:any, i:number) => i !== index);
             setTodos(newList)
         }}>

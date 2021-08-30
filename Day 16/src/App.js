@@ -1,12 +1,12 @@
 import "./styles.css";
 
 function Box() {
-  return <div className="block"></div>;
+  return <div className=="block"></div>;
 }
 
 function Boxes() {
   return (
-    <div className="row">
+    <div className=="row">
       <Box />
       <Box />
       <Box />
@@ -21,7 +21,7 @@ function Boxes() {
 
 function BoxRow() {
   return (
-    <div className="board">
+    <div className=="board">
       <Boxes />
       <Boxes />
       <Boxes />
@@ -36,7 +36,7 @@ function BoxRow() {
 
 export default function App() {
   return (
-    <div className="App">
+    <div className=="App">
       <BoxRow />
     </div>
   );

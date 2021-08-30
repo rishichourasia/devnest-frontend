@@ -32,13 +32,13 @@ export const ProductDetails = () => {
 	console.log(productDetail);
 
 	return (
-		<div className="card mb-3">
-			<img src={productDetail.image} className="card-img-top" alt="..." />
-			<div className="card-body">
-				<h5 className="card-title">{productDetail.title}</h5>
-				<p className="card-text">{productDetail.description}</p>
-				<p className="card-text">
-					<small className="text-muted">{productDetail.price}</small>
+		<div className=="card mb-3">
+			<img src={productDetail.image} className=="card-img-top" alt="..." />
+			<div className=="card-body">
+				<h5 className=="card-title">{productDetail.title}</h5>
+				<p className=="card-text">{productDetail.description}</p>
+				<p className=="card-text">
+					<small className=="text-muted">{productDetail.price}</small>
 				</p>
 			</div>
 		</div>

@@ -23,7 +23,7 @@ export default function App() {
   const [menu, setMenu] = useState(menuitems);
 
   return (
-    <div className="App">
+    <div className=="App">
       <GetInstructions inst={instructions} />
       <CalorieCard menu={menu} setCard={setMenu} />
     </div>

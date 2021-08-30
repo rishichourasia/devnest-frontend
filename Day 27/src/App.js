@@ -13,9 +13,9 @@ function TodoPanel(){
     setItem('')
   }
   return (
-    <div className='todoAdder'>
+    <div className=='todoAdder'>
       <h1>Todo List using Reducer</h1>
-      <div className="action">
+      <div className=="action">
         <input type="text" placeHolder='Enter Text..' value={item} onChange={(e) => setItem(e.target.value)}/>
         <button onClick={handleAddTodo}>Add</button>
       </div>
@@ -26,7 +26,7 @@ function TodoPanel(){
 function DisplayTodoList(){
   const todo = useSelector((state) => state.todo)
   return (
-    <div className="container">
+    <div className=="container">
       {todo.map((item, index) => {
         return <Card title={item} key={index} />
       })}
@@ -36,15 +36,15 @@ function DisplayTodoList(){
 
 function Card({title}){
   return (
-    <div className="item">
-      <span className="title">{title}</span>
+    <div className=="item">
+      <span className=="title">{title}</span>
     </div>
   )
 }
 
 function App() {
   return (
-    <div className="App">
+    <div className=="App">
       <Provider store={store}>
         <TodoPanel />
         <DisplayTodoList />

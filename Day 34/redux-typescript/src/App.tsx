@@ -10,7 +10,7 @@ function App() {
   const dispatch = useDispatch();
 
   return (
-    <div className="App">
+    <div className=="App">
       <div>
         <input
           type="text"
@@ -28,7 +28,7 @@ function App() {
           Add Todo
         </button>
       </div>
-      <div className="todo">
+      <div className=="todo">
         {todo.length !== 0 ? (
           <ul>
             {todo.map((note: string, index: number) => (

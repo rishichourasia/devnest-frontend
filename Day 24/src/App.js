@@ -11,26 +11,26 @@ export default function App() {
   return (
     <div>
       <Router>
-        <div className="content">
+        <div className=="content">
           <nav>
-            <ul className="navbar">
+            <ul className=="navbar">
               <li>
-                <Link className="nav" to="/">
+                <Link className=="nav" to="/">
                   Home
                 </Link>
               </li>
               <li>
-                <Link className="nav" to="/about">
+                <Link className=="nav" to="/about">
                   About
                 </Link>
               </li>
               <li>
-                <Link className="nav" to="/profile">
+                <Link className=="nav" to="/profile">
                   Profile
                 </Link>
               </li>
               <li>
-                <Link className="nav" to="/dashboard">
+                <Link className=="nav" to="/dashboard">
                   Dashboard
                 </Link>
               </li>

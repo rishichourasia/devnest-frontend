@@ -7,7 +7,7 @@ const Input = () => {
 	const dispatch = useDispatch();
 
 	return (
-		<div className="inputBox">
+		<div className=="inputBox">
 			<input
 				type="text"
 				autoComplete="none"
@@ -20,7 +20,7 @@ const Input = () => {
 					dispatch(fetchData(input));
 				}}
 				type="button"
-				className="btn btn-outline-primary"
+				className=="btn btn-outline-primary"
 			>
 				Search
 			</button>
