@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg card">
 			<div className="container">
 				<a className="navbar-brand" href="/">
 					<img className="logo" src="/img/logo.png" alt="logo" />
@@ -33,6 +33,11 @@ export const Navbar = () => {
 						<li className="nav-item">
 							<a className="nav-link" href="/">
 								<i className="bi bi-chat"></i>
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="/">
+								<i className="bi bi-heart"></i>
 							</a>
 						</li>
 						<li className="nav-item">
